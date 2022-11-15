@@ -37,9 +37,9 @@ public class ParamentrosGetServlet extends HttpServlet {
         }
         try {
             int codigo=Integer.parseInt(req.getParameter("codigo"));
-            out.println("<h3>El codigo enviando es : "+codigo+"</h3>");
+            out.println("   <h3>El codigo enviando es : "+codigo+"</h3>");
         }catch (NumberFormatException e){
-            out.println("<h3>El codigo no se ha enviado, en null</h3>");
+            out.println("   <h3>El codigo no se ha enviado, en null</h3>");
         }
 
         out.println("   </body>");
